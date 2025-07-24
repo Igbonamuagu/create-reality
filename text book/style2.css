@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: white;
+    color: #222;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, gold, black);
+    color: white;
+    text-align: center;
+    padding: 3em 1em;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin: 0;
+  }
+  
+  .hero h2 {
+    font-size: 1.4em;
+    margin-top: 0.5em;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  section {
+    padding: 2em 1.5em;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .book-cover {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 1em auto;
+  }
+  
+  footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
