@@ -2,120 +2,268 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Create Reality | Teach. Motivate. Inspire.</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create Reality – Motivate. Inspire. Build.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"/>
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
-      background-color: #f9f9f9;
+    }
+    body {
+      background: #f8f9fa;
       color: #333;
     }
     header {
       background: #1a1a1a;
-      color: white;
+      color: #fff;
       padding: 20px 40px;
-      text-align: center;
+    }
+    header h1 {
+      font-size: 28px;
+      color: #00ff99;
+    }
+    nav {
+      margin-top: 10px;
     }
     nav a {
-      margin: 0 15px;
       color: #fff;
+      margin-right: 20px;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 500;
+    }
+    nav a:hover {
+      color: #00ff99;
     }
     .hero {
       text-align: center;
       padding: 80px 20px;
-      background: linear-gradient(to right, #4facfe, #00f2fe);
+      background: linear-gradient(to right, #00c6ff, #0072ff);
       color: white;
     }
-    .hero h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
     }
     .hero p {
-      font-size: 1.2rem;
+      font-size: 18px;
     }
-    .sections {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
-      padding: 40px 20px;
+    .section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
     }
-    .section-box {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      padding: 20px;
+    .section h3 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      color: #0072ff;
+    }
+    .cta {
       text-align: center;
+      padding: 50px 20px;
+      background: #0072ff;
+      color: white;
     }
-    .section-box h2 {
-      margin-bottom: 10px;
+    .cta a {
+      display: inline-block;
+      padding: 12px 30px;
+      background: #00ff99;
+      color: black;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
     }
     footer {
-      background: #1a1a1a;
-      color: #ccc;
       text-align: center;
       padding: 20px;
-      margin-top: 40px;
-    }
-    a.button {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 8px 16px;
       background: #1a1a1a;
-      color: white;
-      border-radius: 5px;
-      text-decoration: none;
+      color: #fff;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Create Reality</h1>
+    <h1>Create-Reality</h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Teachings</a>
-      <a href="#">Books</a>
-      <a href="#">News</a>
-      <a href="#">Apps</a>
-      <a href="#">Contact</a>
+      <a href="#about">About</a>
+      <a href="#books">Books</a>
+      <a href="#news">News</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <h1>Teach. Motivate. Inspire.</h1>
-    <p>Your journey to greatness begins here. Learn, grow, and create your reality.</p>
+  <div class="hero">
+    <h2>Motivate. Inspire. Create Your Reality.</h2>
+    <p>Helping you unlock your potential through words, wisdom, and powerful tools.</p>
+  </div>
+
+  <section class="section" id="about">
+    <h3>About Us</h3>
+    <p>We are a purpose-driven platform built to teach, inspire and motivate people to live their best lives. From life-changing books to personal development insights and tech empowerment, we guide you to build a life and legacy you truly deserve.</p>
   </section>
 
-  <section class="sections">
-    <div class="section-box">
-      <h2>Daily Teachings</h2>
-      <p>Life-changing insights and powerful lessons for everyday living.</p>
-      <a href="#" class="button">Read Now</a>
+  <section class="section" id="books">
+    <h3>Motivational Books</h3>
+    <p>Read powerful motivational books, including our original works like <em>"Lack of money is the root of all Evil"</em>, <em>"The Code"</em>, and more. These books are designed to fuel your spirit and ignite your purpose.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Motivational Books</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    h1 {
+      margin: 0;
+    }
+    .book-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .book {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+      margin: 1rem;
+      width: 220px;
+      text-align: center;
+      padding: 1rem;
+    }
+    .book img {
+      width: 150px;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .book-title {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .book a {
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      background: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .book a:hover {
+      background: #0056b3;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Motivational Book Library</h1>
+    <p>Inspire. Motivate. Empower.</p>
+  </header>
+
+  <section class="book-list">
+    <div class="book">
+      <img src="./IMG-20250721-WA0084.jpg" alt="Lack of Money"/>
+      <div class="book-title">Lack of Money is the Root of All Evil</div>
+      <a href="lack-of-money.pdf" target="_blank">Read PDF</a>
     </div>
-    <div class="section-box">
-      <h2>Motivational Books</h2>
-      <p>Discover books that awaken your potential and renew your mindset.</p>
-      <a href="#" class="button">Explore Books</a>
+
+    <div class="book">
+      <img src="./IMG-20250721-WA0089.jpg" alt="The Code"/>
+      <div class="book-title">The Code</div>
+      <a href="the-code.pdf" target="_blank">Read PDF</a>
     </div>
-    <div class="section-box">
-      <h2>News & Updates</h2>
-      <p>Stay informed with the latest updates, blog posts, and announcements.</p>
-      <a href="#" class="button">View News</a>
+
+    <div class="book">
+      <img src="./IMG-20250721-WA0091.jpg" alt="I Create What I Want"/>
+      <div class="book-title">I Create What I Want</div>
+      <a href="i-create.pdf" target="_blank">Read PDF</a>
     </div>
-    <div class="section-box">
-      <h2>Our Apps</h2>
-      <p>Explore our educational and motivational apps built to empower you.</p>
-      <a href="#" class="button">See Apps</a>
+
+    <div class="book">
+      <img src="./IMG-20250721-WA0099.jpg" alt="God Don't Help the Weak and Stupid"/>
+      <div class="book-title">God Doesn't Help the Weak and Stupid</div>
+      <a href="god-dont-help.pdf" target="_blank">Read PDF</a>
+    </div>
+
+    <div class="book">
+      <img src="./IMG-20250721-WA0094.jpg" alt="The Coward Can Never Be Wealthy"/>
+      <div class="book-title">The Coward Can Never Be Wealthy</div>
+      <a href="coward-wealthy.pdf" target="_blank">Read PDF</a>
+    </div>
+
+    <div class="book">
+      <img src="./IMG-20250721-WA0105.jpg" alt="The Battles of Daily Life"/>
+      <div class="book-title">The Battles of Daily Life</div>
+      <a href="daily-battles.pdf" target="_blank">Read PDF</a>
     </div>
   </section>
+
+ 
+    
+  </section>
+
+  <section class="section" id="news">
+    <h3>News & Updates</h3>
+    <p>Stay updated with the latest in personal development, technology, life-changing testimonies, and powerful stories from around the world.</p>
+  </section>
+
+  <section class="section" id="blog">
+    <h3>Our Blog</h3>
+    <p>Explore inspiring articles, spiritual growth lessons, app-building tutorials, and real-life motivation. Every post is crafted to lift you up and show you what’s possible.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h3>Contact Us</h3>
+    <p>Have questions or want to connect with us? Email us or follow our journey. Let’s grow together.</p>
+    <section class="section" id="contact">
+    <h3>Contact Us</h3>
+    <p>We'd love to hear from you! Reach us through any of the platforms below:</p>
+    <ul style="list-style: none; padding: 0; margin-top: 20px;">
+      <li>📞 Phone: <a href="tel:+2348012345678">+234 8037330241</a></li>
+      <li>📘 Facebook: <a href="https://www.facebook.com/share/19SfmMERfV" target="_blank">facebook.com/share/19SfmMERfV/</a></li>
+      <li>📸 Instagram: <a href="https://instagram.com/yourhandle" target="_blank">@Igbonamuagu1987</a></li>
+      <li>🐦 Twitter: <a href="https://twitter.com/yourhandle" target="_blank">@yourhandle</a></li>
+      <li>💬 WhatsApp: <a href="https://wa.me/2348037330241" target="_blank">Chat on WhatsApp</a></li>
+      <li> linkedin: <a href="https://www.linkedin.com" target="-blank">chat on linkedin</li>
+    </ul>
+  </section>
+
+
+  </section>
+
+  <div class="cta">
+    <h2>Ready to Build Your Reality?</h2>
+    <a href="#books">Start Reading Now</a>
+  </div>
 
   <footer>
-    <p>&copy; 2025 Create Reality. All rights reserved.</p>
-    <p>Contact: alexanderigbonamuagu@gmail.com</p>
+    <p>&copy; 2025 Create-Reality. All rights reserved.</p>
+    <p>&copy; 2025 Okechukwu Alexander Annezi</p>
   </footer>
 
 </body>
